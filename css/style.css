@@ -1,0 +1,72 @@
+.navbar-brand {
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+}
+
+.navbar-nav a {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ img {
+    margin: auto;
+}
+
+/* Define a transition effect for the card */
+.card {
+    transition: transform 0.3s ease-in-out; /* You can adjust the duration and easing function */
+  }
+  
+  /* Add a transform effect on hover */
+  .card:hover {
+    transform: scale(1.05); /* Adjust the scale to your preference */
+  }
+  
+
+  /* Styling for the input fields */
+#phoneList, .totalprice {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  #phoneList:hover, #phoneList:focus, .totalprice:hover, .totalprice:focus {
+    border-color: #666;
+  }
+  
+  /* Styling for the 'Show Total Price' button */
+  #showPriceBtn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50; /* Set your button's background color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #showPriceBtn:hover {
+    background-color: #45a049; /* Change button color on hover */
+    transform: scale(1.1); /* Add a slight scale effect on hover */
+  }
+  
+  /* Styling for the 'Reset Phone List' button */
+  #resetButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #d9534f; /* Set your button's background color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #resetButton:hover {
+    background-color: #c9302c; /* Change button color on hover */
+    transform: scale(1.1); /* Add a slight scale effect on hover */
+  }
+  
